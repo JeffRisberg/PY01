@@ -8,10 +8,14 @@ def print_lol(a_list, indent=False, level=0):
         else:
             if indent:
                 for l in range(level):
-                    print("\t")
-        print(each_item)
+                    print("\t"),
+            print(each_item)
 
 
 a = [5, 6, 7, 8, 9, 10]
 
 print_lol(a)
+
+b = [1, 2, 3, ["a", "b", "c"], 9, 10]
+
+print_lol(b)
