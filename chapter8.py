@@ -1,13 +1,13 @@
 
 class CountFromBy:
 
-    def __init__(self, v: int=0, i: int=1) -> None:
+    def __init__(self, v=0, i=1):
         self.val = v
         self.incr = i
 
-    def increase(self) -> None:
+    def increase(self):
         self.val += self.incr
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         return str(self.val)
 
