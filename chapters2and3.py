@@ -61,6 +61,9 @@ for letter in word:
 for k, v in sorted(found.items()):
     print(k, 'was found', v, 'time(s).')
 
+u_list = sorted(list(u))
+u_list
+
 # final part of chapter 3
 vowels = set('aeiou')
 word = input("Provide a word to search for vowels: ")
